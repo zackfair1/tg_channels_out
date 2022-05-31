@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Zakaria Tahiri"
+  },
+  "text": {
+    "more": "By Out-Degree -- In other words, the channels which forwards the most",
+    "intro": "Pink:Unspecified ------  Light Green:Politics ------ Cyan:News and media ------ Pink:Education and Entertainment ------ Dark Green:Covid-19 ------ Yellow:Religion",
+    "title": "Interaction between Telegram channels based on classes (colors)"
+  },
+  "legend": {
+    "edgeLabel": "Degree",
+    "colorLabel": "Category",
+    "nodeLabel": "Telegram Channel"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
