@@ -4,6 +4,7 @@ var sigma = {
     classes: {},
     instances: {}
 };
+
 (function () {
     Array.prototype.some || (Array.prototype.some = function (g, n) {
         var i = this.length;
@@ -166,8 +167,8 @@ sigma.classes.EventDispatcher = function () {
         sigma.classes.EventDispatcher.call(this);
         var c = this;
         this.p = {
-            minNodeSize: 0,
-            maxNodeSize: 0,
+            minNodeSize: 1,
+            maxNodeSize: 20,
             minEdgeSize: 0,
             maxEdgeSize: 0,
             minBGSize: 0,
